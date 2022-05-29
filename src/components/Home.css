@@ -1,0 +1,22 @@
+.title{
+    margin-top: 70px;
+    margin-left: 180px;
+    display: flex;
+
+   
+ 
+}
+
+.subT{
+    margin-left: 180px;
+}
+
+.logo{
+    width: 60px;
+    margin-left: 40px;
+}
+
+.logo:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}

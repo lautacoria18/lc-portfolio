@@ -1,0 +1,36 @@
+
+  .portfolioVG{
+      margin-top: 50px;
+  }
+
+  .grid1{
+  
+    
+      display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  
+  .cardB{
+    margin-top: 20px;
+  }
+
+
+  .card-footer{
+      display: flex;
+  position:absolute;
+    bottom:0;
+    width:100%;
+    margin-left: -15px;
+  }
+  .card {
+    height: 85vh;
+    width: 60vh;
+}
+
+.btn{
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=142403), auto !important;
+    margin-left: 3px;
+    background-color: black;
+}

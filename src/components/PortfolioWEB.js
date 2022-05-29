@@ -1,0 +1,39 @@
+import React from 'react'
+import { Button, Card } from 'react-bootstrap';
+import { SiGithub, SiGoogleplay, SiReact, SiYoutube } from 'react-icons/si';
+import { Paginas } from './Paginas';
+
+export default function PortfolioWEB() {
+  return (
+    <div className='portfolioVG'>
+      <h3>My web pages</h3>
+    <div className='gim'>
+    <div className='grid1'>
+    { Paginas.map((lider, index) => {
+      return(
+    <Card className='cardB' >
+    <Card.Img variant="top" src={lider.image} />
+    <Card.Body>
+      <Card.Title>{lider.name}</Card.Title>
+      <Card.Text>
+        {lider.description}
+      </Card.Text>
+      <Card.Footer>
+
+      <Button variant="dark" href={lider.download} target='_blank'>
+      <SiReact width={"100"}/> Go to the page
+      </Button>   
+      <Button variant="dark" href={lider.source} target='_blank'>
+      <SiGithub width={"100"}/> Source code
+      </Button>
+      
+      </Card.Footer>
+    </Card.Body>
+  </Card>
+      );
+    })}
+   </div>
+   </div>
+   </div >
+  )
+}

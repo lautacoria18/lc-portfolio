@@ -1,0 +1,12 @@
+
+.nBAR *{
+    background-color: rgb(16, 16, 16);
+}
+
+.nav-link{
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=142403), auto !important;
+}
+
+.navbar-brand{
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=142403), auto !important;
+}
