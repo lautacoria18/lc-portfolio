@@ -30,7 +30,7 @@
 }
 
 .btn{
-    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=142403), auto !important;
+    cursor: url("./attack32x32.cur"), auto !important;
     margin-left: 3px;
     background-color: black;
 }
