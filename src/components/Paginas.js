@@ -1,20 +1,20 @@
-import GC from './gc.jpg';
-import KD from './kantodex.jpg'
+import GC from '../assets/images/gc.jpg';
+import KD from '../assets/images/kantodex.jpg'
 
 export const Paginas = [
     {
         name: 'GC-Fotografía',
-        description: "Color runner it's an Endless Runner 3D style game made in unity. This videogame tries to honour games like Pepsiman, Crazy Taxi and Subway Surfers.",
+        description: "A full responsive portfolio page of a professional photographer built using react/bootstrap",
         image: GC,      
         source: 'https://github.com/lautacoria18/gc-fotos',
         download:  'https://master--meek-maamoul-3c839c.netlify.app/'
     },
     {
         name: 'Kantodex',
-        description: "It´s a 2D platform game with simple mecanics like jump and slide. Currently has only 10 simple levels, 1 boss level and 2 secret levels. ",
+        description: "A simple  page of the fictional region Kanto of the videogame Pokemon Blue/Red, built using react/bootstrap",
         image: KD,
-        source: 'https://github.com/lautacoria18/Penguin_Trouble',
-        download: 'https://relaxed-basbousa-651760.netlify.app/'
+        source: 'https://github.com/lautacoria18/kantodex',
+        download: 'https://chimerical-sherbet-a6288d.netlify.app/'
     },
     
 

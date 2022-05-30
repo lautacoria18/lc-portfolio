@@ -1,9 +1,9 @@
 import React from 'react'
 import './Home.css'
-import joystick from './gamelogo.png'
-import front from './icon-code.jpg'
-import unity from  './unitylogo.jpg'
-import rct from './react.jpg'
+import joystick from '../assets/images/gamelogo.png'
+import front from '../assets/images/icon-code.jpg'
+import unity from  '../assets/images/unitylogo.jpg'
+import rct from '../assets/images/react.jpg'
 
 export default function Home() {
   return (

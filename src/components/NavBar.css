@@ -4,11 +4,11 @@
 }
 
 .nav-link{
-    cursor: url("./attack32x32.cur"), auto !important;
+    cursor: url("../assets/cursor/attack32x32.cur"), auto !important;
 }
 
 .navbar-brand{
-    cursor: url("./attack32x32.cur"), auto !important;
+    cursor: url("../assets/cursor/attack32x32.cur"), auto !important;
 }
 
 
