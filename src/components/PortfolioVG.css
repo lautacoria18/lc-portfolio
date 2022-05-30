@@ -1,6 +1,7 @@
 
   .portfolioVG{
       margin-top: 50px;
+      
   }
 
   .grid1{
@@ -10,7 +11,9 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1px;
     grid-auto-rows: minmax(100px, auto);
+    
   }
+
   
   .cardB{
     margin-top: 20px;
@@ -37,4 +40,41 @@
 
 .btn:hover{
   background-color: rgba(0, 0, 255, 0.216);
+}
+
+
+
+
+@media (max-width: 991px) {
+  .grid1 {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    margin-left: 0;
+  }
+  .card{
+    height: 70vh;
+    width: 50vh;
+  }
+  .card-img-top{
+
+    height: 250px;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .grid1 {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    margin-left: 0;
+  }
+  .card{
+    height: 70vh;
+    width: 50vh;
+  }
+  .card-img-top{
+
+    height: 250px;
+  }
+ 
 }

@@ -1,5 +1,5 @@
 .title{
-    margin-top: 70px;
+    margin-top: 90px;
     margin-left: 180px;
     display: flex;
 
@@ -16,7 +16,68 @@
     margin-left: 40px;
 }
 
+
+
 .logo:hover{
     transform: scale(1.5);
     transition: 1s;
 }
+
+.logos2{
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .title{
+        margin-top: 70px;
+        margin-left: 10px;
+        display: flex;
+    
+       
+     
+    }
+    
+    .subT{
+        margin-left: 10px;
+    }
+    .logos{
+        display: none;
+    }
+
+    .logos2{
+        display: flex;
+    }
+
+    .logo{
+        width: 50px;
+        margin-left: 35 px;
+    }
+  
+  }
+  
+  @media (max-width: 480px) {
+    .title{
+        margin-top: 70px;
+        margin-left: 10px;
+        display: flex;
+    
+       
+     
+    }
+    
+    .subT{
+        margin-left: 10px;
+    }
+    .logos{
+        display: none;
+    }
+
+    .logos2{
+        display: flex;
+    }
+
+    .logo{
+        width: 50px;
+        margin-left: 35 px;
+    }
+}  

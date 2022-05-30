@@ -8,8 +8,8 @@ export default function NavBar() {
      <Navbar  fixed ='top'collapseOnSelect expand="lg" variant="dark">
     <Container >
     <Navbar.Brand href="#top" >Lautaro Coria</Navbar.Brand>
-    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-    <Navbar.Collapse  id="responsive-navbar-nav">
+    
+    <Navbar>
       <Nav className="me-auto" >
       
       </Nav>
@@ -24,7 +24,7 @@ export default function NavBar() {
           <SiGithub />
         </Nav.Link>
       </Nav>
-    </Navbar.Collapse>
+    </Navbar>
     </Container>
   </Navbar></div>
   )
