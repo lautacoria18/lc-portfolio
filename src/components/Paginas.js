@@ -7,14 +7,14 @@ export const Paginas = [
         description: "portfolio.gc-foto",
         image: GC,      
         source: 'https://github.com/lautacoria18/gc-fotos',
-        download:  'https://master--meek-maamoul-3c839c.netlify.app/'
+        download:  'https://gc-fotografia.netlify.app/'
     },
     {
         name: 'Kantodex',
         description: "portfolio.kanto",
         image: KD,
         source: 'https://github.com/lautacoria18/kantodex',
-        download: 'https://chimerical-sherbet-a6288d.netlify.app/'
+        download: 'https://kantosite.netlify.app/'
     },
     
 
