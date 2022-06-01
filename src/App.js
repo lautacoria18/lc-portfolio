@@ -5,9 +5,13 @@ import NavBar from './components/NavBar';
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
+import { useState } from 'react';
 
 function App() {
+  
+  
   return (
+    
     <div className='appDiv'>
         <NavBar />
         <Home />

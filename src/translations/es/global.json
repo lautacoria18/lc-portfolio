@@ -1,0 +1,28 @@
+{
+    "home": {
+        "hello-there": "Hola! Bienvenido a mi portfolio",
+        "my-name": "Mi nombre es Lautaro Coria, desarrollador independiente de videojuegos y front-end"
+    },
+    "portfolio":{
+        "checkout": "Mira mi trabajo!",
+        "my-vg" : "Mis videojuegos",
+        "my-pg" : "Mis páginas web",
+        "google-play" : "Descargar",
+        "source-code": "Código fuente",
+        "gameplay": "Gameplay",
+        "page": "Ir a la página",
+        "sag-desc" : "Splash and go es un endless runner hecho en 3D con Unity. Ahora disponible en Playstore!",
+        "jum-desc" : "Jumpingu es un juego plataformero 2D con simple mecanicas etc ",
+        "rat-desc" : "Rock and troll es un videojuego que realice para un proceso de seleccion laboral. Todos los assets fueron previstos por la empresa",
+        "ball-desc" : "Es un juego puzzle bajo desarrollo para android",
+        "gc-foto" : "Una página full responsive de un portfolio para una fotógrafa profesional. Desarrollada usando React/Bootstrap",
+        "kanto" : "Una simple página de la region de ficcion Kanto del videojuego Pokemon Rojo/Azul. Desarrollada usando React/Bootstrap"
+    },
+    "footer":{
+        "footer-desc": "Diseñada y desarrollada por mí",
+        "source-code": "Código fuente"
+    }
+
+
+
+}

@@ -1,0 +1,28 @@
+{
+    "home": {
+        "hello-there": "Hello there! Welcome to my portfolio",
+        "my-name": "My name is Lautaro Coria, a videogame and front-end independent developer"
+    },
+    "portfolio":{
+        "checkout": "Checkout my work!",
+        "my-vg" : "My videogames",
+        "my-pg" : "My web pages",
+        "google-play" : "Download",
+        "source-code": "Source code",
+        "gameplay": "Gameplay",
+        "page": "Go to the page",
+        "sag-desc" : "Splash and go it's an Endless Runner 3D style game made in unity. Now avalaible on Playstore!",
+        "jum-desc" : "It´s a 2D platform game with simple mecanics like jump and slide. Currently has only 10 simple levels, 1 boss level and 2 secret levels. ",
+        "rat-desc" : "Rock and troll it's a game that i made for a job selection process. All the assets were provided by the employment company.",
+        "ball-desc" : "It's a puzzle videogame made for Android, at the moment it's under development.",
+        "gc-foto" : "A full responsive portfolio page of a professional photographer built using react/bootstrap",
+        "kanto" : "A simple page of the fictional region Kanto of the videogame Pokemon Blue/Red, built using react/bootstrap"
+    },
+    "footer":{
+        "footer-desc": "Designed and developed by me",
+        "source-code": "Source code"
+    }
+
+
+
+}

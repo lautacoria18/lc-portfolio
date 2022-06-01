@@ -1,9 +1,15 @@
+import i18next from 'i18next';
 import React from 'react'
-import { Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
+import { Button, Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 import { SiGithub, SiGmail, SiLinkedin } from "react-icons/si";
 import  './NavBar.css'
+import {useTranslation} from  "react-i18next";
 export default function NavBar() {
+  const [t, i18n] = useTranslation("global")
   return (
+
+    
+
     <div className='nBAR'>     
      <Navbar  fixed ='top'collapseOnSelect expand="lg" variant="dark">
     <Container >
@@ -23,6 +29,8 @@ export default function NavBar() {
         <Nav.Link  href="https://github.com/lautacoria18" target="_blank">
           <SiGithub />
         </Nav.Link>
+        <Button onClick={() => i18n.changeLanguage("es")}>ES</Button>
+        <Button onClick={() => i18n.changeLanguage("en")}>EN</Button>
       </Nav>
     </Navbar>
     </Container>

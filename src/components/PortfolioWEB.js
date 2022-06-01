@@ -1,12 +1,16 @@
-import React from 'react'
+import React, { useTransition } from 'react'
 import { Button, Card } from 'react-bootstrap';
+import { useTranslation } from 'react-i18next';
 import { SiGithub, SiGoogleplay, SiReact, SiYoutube } from 'react-icons/si';
 import { Paginas } from './Paginas';
 
 export default function PortfolioWEB() {
+
+  const [t, i18n] = useTranslation("global")
+
   return (
     <div className='portfolioVG'>
-      <h3>My web pages</h3>
+      <h3>{t("portfolio.my-pg")}</h3>
     <div className='gim'>
     <div className='grid1'>
     { Paginas.map((lider, index) => {
@@ -16,7 +20,7 @@ export default function PortfolioWEB() {
     <Card.Body>
       <Card.Title>{lider.name}</Card.Title>
       <Card.Text>
-        {lider.description}
+      {t(lider.description)}
       </Card.Text>
       <Card.Footer>
 
