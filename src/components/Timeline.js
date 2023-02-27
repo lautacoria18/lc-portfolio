@@ -11,7 +11,7 @@ export default function Timeline() {
     <div class="direction-r">
         <div class="flag-wrapper">
             <span class="flag">Web developer</span>
-            <span class="time-wrapper"><span class="time">05/2022 - Present</span></span>
+            <span class="time-wrapper"><span class="time">05/2022 - Actual</span></span>
         </div>
         <div class="desc">Freelance | Desarrollé una pagina para una fotógrafa profesional</div>
     </div>
@@ -22,7 +22,7 @@ export default function Timeline() {
     <div class="direction-l">
         <div class="flag-wrapper">
             <span class="flag">Unity developer</span>
-            <span class="time-wrapper"><span class="time">02/2022-Present</span></span>
+            <span class="time-wrapper"><span class="time">02/2022-Actual</span></span>
         </div>
         <div class="desc">Independent | En mis tiempos libres trabajo en mis juegos personales, he subido uno a la Play Store</div>
     </div>
@@ -33,7 +33,7 @@ export default function Timeline() {
     <div class="direction-r">
         <div class="flag-wrapper">
             <span class="flag">Unity Developer </span>
-            <span class="time-wrapper"><span class="time">08/2022 - present</span></span>
+            <span class="time-wrapper"><span class="time">08/2022 - Actual</span></span>
         </div>
         <div class="desc"> Global Training Technology | Actualmente desarrollando en conjunto un simulador de realidad virtual en multijugador para entrenar obreros en la industria petrolera.
         <li>Me encargué de armar la arquitectura del proyecto e integrarle el framework Photon (Servidor online)</li>
