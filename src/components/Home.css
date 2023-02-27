@@ -1,5 +1,33 @@
-.title{
+
+.homed{
+    display: flex;
+    justify-content: center;
+}
+.descripcion{
+
+    margin-left: -150px;
+    width: 20cm;
+
+}
+.miFoto{
+
+
+    margin-top: 100px;
+    width: 300px;
+    margin-left: 175px;
+   
+
+}
+.hi{
     margin-top: 90px;
+    margin-left: 180px;
+    display: flex;
+    color: rgba(255, 0, 0, 0.668);
+
+}
+
+.title{
+    margin-top: 0px;
     margin-left: 180px;
     display: flex;
 

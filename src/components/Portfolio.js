@@ -11,6 +11,6 @@ export default function Portfolio() {
   return (
     <div className='portfolio'><h2>{t("portfolio.checkout")}</h2>
     <PortfolioVG />
-    <PortfolioWEB /></div>
+    </div>
   )
 }

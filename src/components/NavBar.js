@@ -4,6 +4,7 @@ import { Button, Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 import { SiAdobeacrobatreader, SiGithub, SiGmail, SiLinkedin } from "react-icons/si";
 import  './NavBar.css'
 import {useTranslation} from  "react-i18next";
+import BCS from '../assets/images/bcs.png'
 export default function NavBar() {
   const [t, i18n] = useTranslation("global")
   return (
@@ -13,14 +14,14 @@ export default function NavBar() {
     <div className='nBAR'>     
      <Navbar  fixed ='top'collapseOnSelect expand="lg" variant="dark">
     <Container >
-    <Navbar.Brand href="#top" >Lautaro Coria</Navbar.Brand>
+    <Navbar.Brand href="#top" ><img src={BCS} className='imgNav' /></Navbar.Brand>
     
     <Navbar>
       <Nav className="me-auto" >
       
       </Nav>
       <Nav >
-      <Nav.Link  href="https://mega.nz/file/RNIlEQhB#87EMgJksfLO-DDe0oMuSdD_Ikc_g4WNyxXRFWhEKwxc" target="_blank">
+      <Nav.Link  href="https://mega.nz/file/sIYzVYrZ#9NEcx7c26TUhaq6wFwgWQm57wCyts3W4R6-BhjcohOU" target="_blank">
           <SiAdobeacrobatreader />
                             
         </Nav.Link>
@@ -36,8 +37,8 @@ export default function NavBar() {
         </Nav.Link>
         
         
-        <Button onClick={() => i18n.changeLanguage("es")}>ES</Button>
-        <Button onClick={() => i18n.changeLanguage("en")}>EN</Button>
+        {/* Un comentario JSX  <Button onClick={() => i18n.changeLanguage("es")}>ES</Button>
+       <Button onClick={() => i18n.changeLanguage("en")}>EN</Button>*/}
       </Nav>
     </Navbar>
     </Container>

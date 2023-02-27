@@ -1,7 +1,7 @@
 {
     "home": {
-        "hello-there": "Hola! Bienvenido a mi portfolio",
-        "my-name": "Mi nombre es Lautaro Coria, desarrollador independiente de videojuegos y front-end"
+        "hello-there": "Desarrollador de videojuegos",
+        "my-name": "Apasionado desarrollador de videojuegos y front-end. Actualmente me encuentro trabajando en un simulador multijugador de realidad virtual para la empresa Global Training Technology y estudiando la Licenciatura en informática en la Universidad Nacional de Quilmes"
     },
     "portfolio":{
         "checkout": "Mira mi trabajo!",

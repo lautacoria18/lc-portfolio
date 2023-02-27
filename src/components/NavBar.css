@@ -10,5 +10,9 @@
 .navbar-brand{
     cursor: url("../assets/cursor/attack32x32.cur"), auto !important;
 }
+.imgNav{
 
+width: 130px;
+
+}
 
