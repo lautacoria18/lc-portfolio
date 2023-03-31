@@ -122,5 +122,14 @@
 
     height: 250px;
   }
+
+  .portfolioVG{
+    margin-top: 50px;
+    
+    display: block;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    grid-auto-rows: minmax(100px, auto);
+}
  
 }

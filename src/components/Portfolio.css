@@ -23,6 +23,13 @@
   @media (max-width: 480px) {
     .portfolio{
         margin-left: 10px;
+        text-align: center;
+      }
+      .portfolio > h2{
+      margin-left: 80px;
+        text-align: center;
+        width: 200px;
+      
       }
    
   }

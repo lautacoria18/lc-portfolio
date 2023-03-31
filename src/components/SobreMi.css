@@ -37,3 +37,32 @@ ul{
       }
 
 
+      @media (max-width: 991px) {
+
+        .portfolio{
+        margin-left: 10px;
+      }
+    }
+      
+      @media (max-width: 480px) {
+        .portfolio{
+            margin-left: 10px;
+          }
+          
+          .lista {
+
+            text-align: left;
+                display: block;
+            
+            
+            }
+            .skills{
+                width: 280px;
+              text-align: center;
+                margin-left: 200px;
+                border: 2px solid rgba(224, 253, 0, 0.801);
+                border-radius: 5px;
+                background-color:rgba(0, 0, 0, 0.559);
+            }
+       
+      }

@@ -2,6 +2,7 @@
 .homed{
     display: flex;
     justify-content: center;
+    
 }
 .descripcion{
 
@@ -56,6 +57,12 @@
 }
 
 @media (max-width: 991px) {
+
+    .homed{
+        display: block;
+        justify-content: center;
+    }
+
     .title{
         margin-top: 70px;
         margin-left: 10px;
@@ -85,27 +92,41 @@
   
   @media (max-width: 480px) {
     .title{
-        margin-top: 70px;
-        margin-left: 10px;
-        display: flex;
-    
-       
+      
+      width: 500px;
+        justify-content: center;
+       margin-left: 100px;
      
     }
+    .homed{
+        display: block;
+        justify-content: center;
+        
+    }
+
     
     .subT{
-        margin-left: 10px;
+        width: 400px;
+        margin-left: 150px;
+        text-align: center;
     }
-    .logos{
-        display: none;
+ 
+    .miFoto{
+
+
+        margin-top: 100px;
+        width: 300px;
+        margin-left: 40px;
+       
+    
+    }
+    .hi{
+        margin-top: 90px;
+        margin-left: 180px;
+        display: block;
+        color: rgba(255, 0, 0, 0.668);
+    
     }
 
-    .logos2{
-        display: flex;
-    }
 
-    .logo{
-        width: 50px;
-        margin-left: 35 px;
-    }
 }  
