@@ -6,6 +6,7 @@ import SAG from '../assets/images/CoverPhoto.jpg'
 import JMP from  '../assets/images/JumpinguCover.jpg'
 import RAT from '../assets/images/RockAndTrollCover.jpg'
 import TLIB from '../assets/images/DropTheBallCover.jpg'
+import ROAD from '../assets/images/ROAD.png'
 
 import { SiGithub, SiGoogleplay, SiYoutube } from 'react-icons/si';
 import { useTranslation } from 'react-i18next';
@@ -40,19 +41,19 @@ export default function PortfolioVG() {
 </div>
 <div className='fullCard'>
       <div className='cardVG'>
-          <img src={JMP} className='imgSAG'/>
+          <img src={ROAD} className='imgSAG'/>
           
       </div>
       <div className='TitleAndButtons'>
-      <h3  className='titleCard'>Jumpingu</h3>
+      <h3  className='titleCard'>Road Roosters</h3>
       <div className='buttons'>
            
-           <Button variant="dark" href={"https://github.com/lautacoria18/Penguin_Trouble"} target='_blank'>
+           <Button variant="dark" href={"https://github.com/lautacoria18/Chicken"} target='_blank'>
            <SiGithub width={"100"}/> {}
            </Button>
-           <Button variant="dark" href={"https://www.youtube.com/watch?v=o0ye6_c6pC4"} target='_blank'>
+           <Button variant="dark" href={"https://www.youtube.com/watch?v=kt2oCXASloY"} target='_blank'>
            <SiYoutube width={"100"}/> {}</Button>
-           <Button variant="dark" href={"https://mega.nz/file/hZJ2gbIY#j6-zJl6df6WyB5bDDESVnuDPdShRt76exJyXsp7VsqM"} target='_blank'>
+           <Button variant="dark" href={"https://mega.nz/file/YI5AGIhT#OwWIj3IuELZiplaIJ25G7PGPb3a_yKdqpf8AtETeRdg"} target='_blank'>
            <SiGoogleplay width={"100"}/> {}
            </Button>   
            </div>
