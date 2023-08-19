@@ -35,9 +35,14 @@ export default function Timeline() {
             <span class="flag">Unity Developer </span>
             <span class="time-wrapper"><span class="time">08/2022 - Actual</span></span>
         </div>
-        <div class="desc"> Global Training Technology | Actualmente desarrollando en conjunto un simulador de realidad virtual en multijugador para entrenar obreros en la industria petrolera.
-        <li>Me encargué de armar la arquitectura del proyecto e integrarle el framework Photon (Servidor online)</li>
-Desarrollé ejercicios multijugador en realidad virtual para el casco Oculus Quest 2</div>
+        <div class="desc"> Global Training Technology | Desarrollando en conjunto un simulador de realidad virtual en multijugador para entrenar obreros en la industria petrolera.
+        Me encargué de armar la arquitectura del proyecto e integrarle el framework Photon (Servidor online). 
+        Desarrollé ejercicios multijugador en un entorno de realidad virtual para el casco Oculus Quest 2
+       
+
+
+        <li>Desarrollando una aplicacion que será utilizada en dispositivos moviles en android y como sitio web</li>
+</div>
     </div>
 </li>
 

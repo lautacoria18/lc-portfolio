@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { SiGithub, SiGoogleplay, SiReact, SiYoutube } from 'react-icons/si';
 import { Paginas } from './Paginas';
 
-export default function PortfolioWEB() {
+export default function PortfolioWEB( ) {
 
   const [t, i18n] = useTranslation("global")
 
