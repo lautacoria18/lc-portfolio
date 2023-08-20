@@ -39,7 +39,7 @@ export const Juegos =
     },
     {
         name: 'Coffee time!',
-        description: "Un simple simulador en realidad virtual para realizar cafe en una cafetera italiana Moka",
+        description: "Un simple simulador en realidad virtual para preparar cafe en una cafetera italiana Moka",
         image: CAFE,
         video: 'https://youtu.be/N8WrKtCQEnk',
         source: 'https://github.com/lautacoria18/Cafe',
