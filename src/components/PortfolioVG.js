@@ -31,13 +31,13 @@ export default function PortfolioVG() {
         <p>{lider.description}</p>
         <div className="button-group">
         <Button variant="dark" href={lider.download} target='_blank'>
-      <SiReact width={"100"}/> Descargar
+      <SiGoogleplay width={"100"}/> Descargar
       </Button>
       <Button variant="dark" href={lider.video} target='_blank'>
-      <SiReact width={"100"}/> Gameplay
+      <SiYoutube width={"100"}/> Gameplay
       </Button>  
       <Button variant="dark" href={lider.source} target='_blank'>
-      <SiReact width={"100"}/> Código fuente
+      <SiGithub width={"100"}/> Código fuente
       </Button>     
     
         </div>
